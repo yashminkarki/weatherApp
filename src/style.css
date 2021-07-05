@@ -53,6 +53,9 @@
   font-size: 18px;
   text-decoration: none;
 }
+.bottom-link {
+  text-decoration: none;
+}
 #celsius-unit {
   text-decoration: none;
 }
