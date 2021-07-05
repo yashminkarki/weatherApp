@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form" id = "search-form">
+          <div class="row first">
+            <div class="col-6">
+              <input
+                type="text"
+                placeholder="Enter the name of the city"
+                class="form-city"
+              />
+            </div>
+            <div class="col-3">
+              <button type="submit" class="btn btn-primary w-100" id="search-button">🔎 Search</button>
+            </div>
+            <div class="col-3">
+              <button class="btn btn-success w-100" id="current-button">Current</button>
+            </div>
+          </div>
+
+          <div class="row second">
+            <div class="col first">
+              <p>
+                <ul class="left">
+                  <li id= "city-name"></li>
+                  <li id = "current-date">Today |</li>
+                  <li id = "weather-description"></li>
+                </ul>
+              </p>
+            </div>
+
+             <div class="col second">
+               <ul class = "right">
+                 <li>
+                   <span class="temperature"></span>
+                  <span class="celsius-fahrenheit">
+                  <a href="#" id = "celsius-unit">°C</a>
+                  |
+                  <a href="#" id = "fahrenheit-unit">°F</a>
+                  </span>
+                 </li>
+                 <li>
+                   <div class="humidity">Humidity: %</div>
+                   <div class="wind-speed">Wind: km/hr</div>
+                 </li>
+               </ul>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <script src = "src/index.js"></script>
+  </body>
+</html>

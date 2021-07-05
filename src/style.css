@@ -1,0 +1,61 @@
+.btn {
+  margin-top: 3px;
+}
+
+.search-form {
+  color: #7c7c7c;
+}
+
+.form-city {
+  width: 100%;
+  box-shadow: 1px 1px 3px #7c7c7c;
+  border-radius: 4px;
+  border: 1px solid #dadde1;
+  padding: 10px;
+}
+
+.weather-app {
+  max-width: 550px;
+  max-height: 300px;
+  display: block;
+  margin: 100px auto 0px;
+  border: 1px solid #dadde1;
+  border-radius: 4px;
+  padding: 15px;
+}
+.left {
+  list-style-type: none;
+  padding: 0px;
+  line-height: 1.2;
+}
+.right {
+  list-style-type: none;
+  padding: 0px;
+  line-height: 1.2;
+}
+#city-name {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.col.second {
+  position: relative;
+  right: -60px;
+}
+
+.temperature {
+  font-size: 50px;
+  color: #000000;
+}
+.celsius-fahrenheit {
+  position: relative;
+  top: -25px;
+  font-size: 18px;
+  text-decoration: none;
+}
+#celsius-unit {
+  text-decoration: none;
+}
+#fahrenheit-unit {
+  text-decoration: none;
+}
