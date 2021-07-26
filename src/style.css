@@ -14,6 +14,13 @@
   padding: 10px;
 }
 
+.widget {
+  width: 550px;
+  height: 232px;
+  display: block;
+  margin: 0 auto;
+}
+
 .weather-app {
   max-width: 550px;
   max-height: 300px;
