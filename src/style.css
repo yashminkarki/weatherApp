@@ -23,36 +23,39 @@
   border-radius: 4px;
   padding: 15px;
 }
+
 .left {
   list-style-type: none;
   padding: 0px;
   line-height: 1.2;
+}
+.col .se {
+  padding: 0px;
 }
 .right {
   list-style-type: none;
   padding: 0px;
   line-height: 1.2;
 }
+#search-button {
+  margin-left: 60px;
+}
 #city-name {
   font-size: 22px;
   text-transform: capitalize;
-}
-
-.col.second {
-  position: relative;
-  right: -60px;
 }
 
 .temperature {
   font-size: 50px;
   color: #000000;
 }
-.celsius-fahrenheit {
+.units {
   position: relative;
   top: -25px;
   font-size: 18px;
   text-decoration: none;
 }
+
 .bottom-link {
   text-decoration: none;
 }
@@ -60,5 +63,20 @@
   text-decoration: none;
 }
 #fahrenheit-unit {
+  text-decoration: none;
+}
+.precipitation {
+  margin-left: 70px;
+}
+#weather-description::first-letter {
+  text-transform: uppercase;
+}
+
+.image .active {
+  color: #7c7c7c;
+  cursor: default;
+}
+
+.image .active:hover {
   text-decoration: none;
 }

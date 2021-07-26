@@ -26,36 +26,36 @@
                 class="form-city"
               />
             </div>
-            <div class="col-3">
-              <button type="submit" class="btn btn-primary w-100" id="search-button">🔎 Search</button>
-            </div>
-            <div class="col-3">
-              <button class="btn btn-success w-100" id="current-button">Current</button>
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary" id="search-button">🔎 Search</button>
             </div>
           </div>
 
           <div class="row second">
-            <div class="col first">
+            <div class="col-5 first">
               <p>
                 <ul class="left">
                   <li id= "city-name"></li>
-                  <li id = "current-date">Today |</li>
+                  <li id = "current-date"></li>
                   <li id = "weather-description"></li>
                 </ul>
               </p>
             </div>
 
-             <div class="col second">
-               <ul class = "right">
+             <div class="col se">
+               <ul class ="right">
                  <li>
+                   <div class="image">
+                     <img src="" alt="Clear" id = "icon">
                    <span class="temperature"></span>
-                  <span class="celsius-fahrenheit">
-                  <a href="#" id = "celsius-unit">°C</a>
-                  |
-                  <a href="#" id = "fahrenheit-unit">°F</a>
-                  </span>
+                      <span class="units">
+                        <a href="#" id = "celsius-unit" class="active">°C</a>
+                     |
+                      <a href="#" id = "fahrenheit-unit">°F</a>
+                      </span>
+                   </div>
                  </li>
-                 <li>
+                 <li class="precipitation">
                    <div class="humidity">Humidity: %</div>
                    <div class="wind-speed">Wind: km/hr</div>
                  </li>
@@ -65,11 +65,11 @@
           </div>
 
         </form>
+        
       </div>
-      <p>
-        <a href="https://github.com/yashminkarki/weatherApp" class="bottom-link">Open-source code</a>
-        by Yashmin Karki
-      </p>
+        <p><a href="https://github.com/yashminkarki/weatherApp" class="bottom-link">Open-source code</a>
+        by Yashmin Karki</p>
+      
     </div>
     <script src = "src/index.js"></script>
   </body>
