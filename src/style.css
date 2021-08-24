@@ -23,7 +23,7 @@
 
 .weather-app {
   max-width: 550px;
-  max-height: 300px;
+  min-height: 200px;
   display: block;
   margin: 100px auto 0px;
   border: 1px solid #dadde1;
@@ -86,4 +86,20 @@
 
 .image .active:hover {
   text-decoration: none;
+}
+.weather-forecast{
+  margin-top: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date{
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-tempertaures{
+  font-size: 13px;
+}
+.weather-forecast-tempertaure-min{
+  opacity: 0.5;
 }
